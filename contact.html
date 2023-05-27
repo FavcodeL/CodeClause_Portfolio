@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <meta name ="viewport" content ="width=device-width, initial-scaled=1.0">
+        <title>My Portfolio</title>
+        <link rel ="stylesheet" href="css/contact.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+            (function(){
+                emailjs.init("scr8MvhQZen98ACbu");
+            })();
+        </script>
+        <script src="portfolio.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="images/LOGO.png">
+                </div>
+                <div class="topnav" id="myTopnav">
+                    <img src="images/LOGO.png">
+                    <a href="index.html">home</a>
+                    <a href="project.html">project</a>
+                    <a href="about.html">about</a>
+                    <a href="contact.html">contact</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+                </div>
+            </nav>
+            <div class="form" id="contact-form">
+                <h1>Contact</h1>
+                <p>Get in touch with me or shoot me an email directly on <b>favourobinwanne14@gmail.com</b></p>
+                <form>
+                    <input type="text" name="name" id="name" placeholder="Name"><br>
+
+                    <input type="email" name="email" id="email" placeholder="Email"><br>
+
+                    <input type="text" name="comment" id="message" placeholder="Message"><br><br>
+
+                    <input type="button" class="btn" value="Send Message" onclick="sendMail()" name="submit" id="submit">
+                </form>
+            </div>
+        </div>
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+        </script>
+    </body>
+</html>
