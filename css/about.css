@@ -168,10 +168,6 @@ h3{
     .topnav img{
         display:none;
     }
-    .background{
-        margin:0px 0px 0px 70px;
-        width:90%;
-    }
     .con1{
         display:flex;
     }
@@ -266,6 +262,5 @@ h3{
         background:none;
         color:white;
     }
-
     
 }
