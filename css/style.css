@@ -94,19 +94,17 @@ nav{
     align-items: left;
     background:white;
     width:100%;
-    height:20%;
+    height:15%;
 }
 nav img{
-    width:150%;
-    height:50%;
-    margin:3% 25% 3% 5%
+    width:100%;
+    height:80%;
+    margin:3% 5% 3% 5%
 }
 .topnav{
     margin:3% 0% 5% 50%;
     text-transform: capitalize;
     font-size: large;
-    width:100%;
-    display:flex;
 }
 .topnav img{
     display:none;
