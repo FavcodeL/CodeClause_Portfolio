@@ -106,6 +106,7 @@ nav img{
     text-transform: capitalize;
     font-size: large;
     width:100%;
+    align-items:right;
 }
 .topnav img{
     display:none;
