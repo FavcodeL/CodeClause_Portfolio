@@ -107,6 +107,7 @@ nav img{
     font-size: large;
     width:100%;
     align-items:right;
+    justify-content:flex-end;
 }
 .topnav img{
     display:none;
