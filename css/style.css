@@ -102,7 +102,7 @@ nav img{
     margin:3% 40% 3% 5%
 }
 .topnav{
-    margin:3% 0% 15% 40%;
+    margin:0% 0% 15% 40%;
     text-transform: capitalize;
     font-size: large;
     width:100%;
@@ -120,7 +120,7 @@ a{
     color:white;
     text-decoration: none;
     border-radius: 10px;
-    padding:10px 20px;
+    padding:10px;
     margin:5px;
 }
 a:hover{
