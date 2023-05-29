@@ -84,8 +84,83 @@ h1{
         color:black;
     }
 }
+@media only screen and (min-width:786px){
+.icon{
+    display:none;
 }
-
+nav{
+    display:flex;
+    justify-content: left;
+    align-items: left;
+    background:white;
+    width:100%;
+    height:15%;
+}
+nav img{
+    width:100%;
+    height:80%;
+    margin:3% 5% 3% 5%
+}
+.topnav{
+    margin:3% 0% 5% 50%;
+    text-transform: capitalize;
+    font-size: large;
+}
+.topnav img{
+    display:none;
+}
+a{
+    border:black 2px solid;
+    background:black;
+    color:white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding:5px 10px 5px 10px;
+}
+a:hover{
+    background:none;
+    color:black;
+}
+.about{
+    display:flex;
+    justify-content: left;
+    align-items: left;
+}
+.text{
+    color:white;
+    margin:3% 0% 5% 16%;
+    width:55%;
+    height: 300px;
+    padding:5%;
+    font-size:20px;
+}
+.text a{
+    background:white;
+    color:black;
+    font-size: 15px;
+    box-shadow: 2px 2px 2px grey;
+    padding:10px 20px 10px 20px;
+}
+.text a:hover{
+    background:none;
+    color:white;
+    border: white 2px solid;
+}
+h1{
+    text-shadow: 3px 4px#000;
+    font-size: 50px;
+}
+h1:hover{
+    color:rgb(94, 94, 238);
+}
+.about img{
+    width: 330px;
+    height: 350px;
+    border-radius: 350px;
+    border:white 2px solid;
+    margin:20% 20% 5% 25%;
+}
+}
 @media only screen and (min-width:786px){
 .icon{
     display:none;
