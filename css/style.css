@@ -85,6 +85,14 @@ h1{
     }
 }
 @media only screen and (min-width:768px){
+    .topnav{
+    margin:3% 0% 5% 30%;
+    text-transform: capitalize;
+    font-size: large;
+}
+}
+
+@media only screen and (min-width:786px){
 .icon{
     display:none;
 }
@@ -102,7 +110,7 @@ nav img{
     margin:3% 5% 3% 5%
 }
 .topnav{
-    margin:3% 0% 5% 40%;
+    margin:3% 0% 5% 50%;
     text-transform: capitalize;
     font-size: large;
 }
