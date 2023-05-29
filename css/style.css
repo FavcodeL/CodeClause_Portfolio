@@ -102,14 +102,14 @@ nav img{
     margin:3% 40% 3% 5%
 }
 .topnav{
-    margin:0% 0% 15% 40%;
+    margin:2% 0% 15% 40%;
     text-transform: capitalize;
     font-size: large;
     width:100%;
     align-items:right;
     justify-content:right;
     display:flex;
-    height:53%;
+    height:52%;
 }
 .topnav img{
     display:none;
