@@ -166,8 +166,11 @@ h3{
         background:none;
         color:black;
     }
+    .topnav img{
+        display:none;
+    }
     .background{
-        margin:30px 0px 0px 70px;
+        margin:20px 0px 0px 70px;
         width:90%;
     }
     .con1{
