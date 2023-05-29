@@ -109,6 +109,7 @@ nav img{
     align-items:right;
     justify-content:right;
     display:flex;
+    height:60%;
 }
 .topnav img{
     display:none;
