@@ -85,7 +85,7 @@ p a{
 }
 @media screen  and (min-width:768px){
     body{
-        background:linear-gradient(120deg, black 90%, rgb(94, 94, 238) 10%);
+        background:black;
     
     }
     .topnav img{
