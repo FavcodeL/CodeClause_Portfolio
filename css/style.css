@@ -84,15 +84,9 @@ h1{
         color:black;
     }
 }
-@media only screen and (min-width:768px){
-    .topnav{
-    margin:3% 0% 5% 30%;
-    text-transform: capitalize;
-    font-size: large;
-}
 }
 
-@media only screen and (min-width:786px){
+@media only screen and (min-width:768px){
 .icon{
     display:none;
 }
