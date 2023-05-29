@@ -144,7 +144,7 @@ h3{
     nav img{
         width:100%;
         height:50%;
-        margin:3% 5% 3% 5%
+        margin:3% 5% 0% 5%
     }
     .topnav{
         margin:3% 0% 5% 50%;
@@ -170,7 +170,7 @@ h3{
         display:none;
     }
     .background{
-        margin:20px 0px 0px 70px;
+        margin:0px 0px 0px 70px;
         width:90%;
     }
     .con1{
